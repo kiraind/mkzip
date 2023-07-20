@@ -1,0 +1,28 @@
+{
+  "name": "mkzip",
+  "version": "1.0.1",
+  "description": "CLI util for making zip-archives from NodeJS packages",
+  "main": "index.js",
+  "bin": "./bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiraind/mkzip.git"
+  },
+  "keywords": [
+    "zip",
+    "nodejs"
+  ],
+  "author": "kiraind",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiraind/mkzip/issues"
+  },
+  "homepage": "https://github.com/kiraind/mkzip#readme",
+  "dependencies": {
+    "tmp": "^0.2.1",
+    "zip-local": "^0.3.5"
+  }
+}
